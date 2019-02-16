@@ -1,0 +1,4 @@
+.eslintrc.json
+.meteor/
+.local-only/
+node_modules/

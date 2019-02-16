@@ -1,0 +1,53 @@
+{
+    "extends": [
+        "@meteorjs/eslint-config-meteor",
+        "prettier",
+        "prettier/react"
+    ],
+    "env": {
+        "meteor": true
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "off",
+        "import/prefer-default-export": "off",
+        "curly": [
+            "error",
+            "all"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 160,
+                "ignoreUrls": true
+            }
+        ],
+        "no-confusing-arrow": [
+            "error", 
+            {
+                "allowParens": false
+            }
+        ],
+        "react/jsx-indent": [
+            4
+        ],
+        "react/jsx-no-undef": [2, { "allowGlobals": true }]
+    }
+}
